@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Redirect results html page
+
+RewriteRule ^unsubscribe-pp-results.html$$ /? [L,R=301]
+
+# custom 404 page
+# ErrorDocument 404 /404/
