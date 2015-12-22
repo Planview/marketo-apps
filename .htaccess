@@ -1,8 +1,8 @@
 RewriteEngine On
 
-# Redirect results html page
+# Redirect daily results html pages
 
-RewriteRule ^unsubscribe-pp-results.html$$ /? [L,R=301]
+RewriteRule ^unsubscribe-pp-results(.*)$$ /? [L,R=301]
 
 # custom 404 page
 # ErrorDocument 404 /404/
