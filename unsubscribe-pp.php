@@ -197,7 +197,7 @@ if ($continue) {
 
 // 06 ///////////////////////////////////////////////////////////////////////////////////////////
 
-if ( emailResults($emailResults . ': Projectplace Unsubscribe Results', $emailMessage, date("l, d/m/Y")) ) {
+if ( emailResults($emailResults . ': ' . date("d M Y") . 'Projectplace Unsubscribe Results', $emailMessage, date("l, d/m/Y")) ) {
 	$emailMessage .= '<h2>6. Email Results</h2><p>Email sent.</p>';
 } else { 
 	$emailMessage .='<h2>6. Email Results</h2><p>There was an issue sending the email.</p>';
