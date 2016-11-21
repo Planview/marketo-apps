@@ -229,7 +229,7 @@ function emailResults($emailSubject, $emailBody, $emailDate) {
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 	
 	// More headers
-	$headers .= 'From: <webmaster@planview.com>' . "\r\n";
+	$headers .= 'From: <marketo-apps@planview.com>' . "\r\n";
 	// add CC emails here
 	//$headers .= 'Cc: additional_email@planview.com' . "\r\n";
 	
